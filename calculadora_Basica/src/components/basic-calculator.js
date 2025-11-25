@@ -125,7 +125,7 @@ class BasicCalculator extends LitElement {
             <button class="btn btn-success w-100" @click=${this.calculate}>=</button>
           </div>
 
-          <!-- Botón + abajo para mantener orden -->
+          <!-- Botón para mantener orden -->
           <div class="col-12">
             <button class="btn btn-secondary w-100" @click=${() => this.setOperation("+")}>+</button>
           </div>
